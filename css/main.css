@@ -1,0 +1,70 @@
+body {
+	background-color: #000;
+}
+
+.main {
+	background-color: #fff;
+	margin-top: 110px;
+	padding-left: 100px;
+	min-width: 1200px;
+	height: 500px;
+	position: relative;
+	z-index: 1;
+}
+
+.ryu {
+	float: left;
+    width: 659px;
+    height: 494px;
+}
+
+.ryu-still, .ryu-ready, .ryu-throwing {
+  width: 659px;
+  height: 494px;
+
+}
+
+.ryu-ready, .ryu-still {
+	display: none;
+} 
+
+.ryu-still {
+  background-image: url('../images/ryu-standing-still.png');
+  /*display: none;*/
+}
+
+.ryu-ready {
+  background-image: url('../images/ryu-ready-position.gif');
+}
+
+.ryu-throwing {
+  background-image: url('../images/ryu-throwing-hadouken.png');
+  /*display: block;*/
+}
+
+.hadouken {
+  background-image: url('../images/hadouken.gif');
+  width: 156px; 
+  height: 90px;
+  display: none;
+  float: left;
+  position: relative;
+  position: absolute;
+  left: 610px;
+  top: 170px;
+  z-index: 10;
+}
+
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
+  background-repeat: no-repeat;
+}
+
+
+/*
+show div.ryu-throwing, 
+hide div.ryu-still, 
+and show div.hadouken. You should see Ryu 
+in his throwing position, with the Hadouken 
+positioned immediately to the right of 
+div.ryu and at the top.
+*/
