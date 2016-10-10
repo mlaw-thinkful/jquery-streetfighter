@@ -24,7 +24,7 @@ body {
 
 }
 
-.ryu-ready, .ryu-still {
+.ryu-ready, .ryu-throwing {
 	display: none;
 } 
 
@@ -60,11 +60,3 @@ body {
 }
 
 
-/*
-show div.ryu-throwing, 
-hide div.ryu-still, 
-and show div.hadouken. You should see Ryu 
-in his throwing position, with the Hadouken 
-positioned immediately to the right of 
-div.ryu and at the top.
-*/
