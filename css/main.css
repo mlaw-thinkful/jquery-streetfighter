@@ -10,6 +10,7 @@ body {
 	height: 500px;
 	position: relative;
 	z-index: 1;
+  font-size: 1.3rem;
 }
 
 .ryu {
@@ -18,15 +19,20 @@ body {
     height: 494px;
 }
 
-.ryu-still, .ryu-ready, .ryu-throwing {
+.ryu-still, .ryu-ready, .ryu-throwing, .ryu-cool {
   width: 659px;
   height: 494px;
 
 }
 
-.ryu-ready, .ryu-throwing {
+.ryu-ready, .ryu-throwing, .ryu-cool {
 	display: none;
 } 
+
+.ryu-cool {
+  background-image: url('../images/ryu-cool.gif');
+  /*display: none;*/
+}
 
 .ryu-still {
   background-image: url('../images/ryu-standing-still.png');
@@ -59,4 +65,17 @@ body {
   background-repeat: no-repeat;
 }
 
+.instructions1, .instructions2 {
+  display: inline-block;
+  width: 200px;  
+  position: absolute;
+}
 
+.instructions1 {
+  top: 50px;
+  left: 600px;
+}
+.instructions2 {
+  top: 180px;
+  left: 750px
+}
