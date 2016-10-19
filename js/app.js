@@ -60,8 +60,8 @@ function playHadouken () {
 }
 
 function hideAll(){
-        	$('.ryu-cool').hide();
-        	$('.ryu-ready').hide();
-        	$('.ryu-throwing').hide();
-        	$('.ryu-still').hide();
+	$('.ryu-cool').hide();
+	$('.ryu-ready').hide();
+	$('.ryu-throwing').hide();
+	$('.ryu-still').hide();
 }
